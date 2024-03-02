@@ -1,0 +1,15 @@
+Question 1: Means difference between no siblings and with siblings == 547.5 - 533.5 = 14
+Question 2: The calculation is in excel: lower bound = 0.637404189
+					  upper bound = 27.36259581
+Question 3: Hypothesis H null: mean1 - mean2 = 0
+		       H alternate: mean1 - mean2 != 0
+	    t 0.005, 19(two-tailed) = 2.8609, -2.8609
+	    P(|t| >= 2.8609) = 0.010001
+	    Conclusion: P-value = 0.010001 !< 0.01(alpha)
+			Meaning H null is rejected and H alternate is suggested
+
+(Note: I believed that t value provided uses alpha = 0.05 and the Question 3 given alpha = 0.01)
+
+Members:
+Max Lee 66070334
+Pakin Chaiaroon 66070337

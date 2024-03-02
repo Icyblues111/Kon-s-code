@@ -1,0 +1,4 @@
+Lengthupgrade:6
+Healthupgrade:1
+Multiplierupgrade:1
+Coinupgrade:1

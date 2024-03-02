@@ -1,0 +1,4 @@
+lengthcode:10
+healthcode:00
+multicode:0000
+coinmulticode:0000

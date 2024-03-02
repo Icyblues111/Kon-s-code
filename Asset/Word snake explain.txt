@@ -1,0 +1,36 @@
+Word snake
+
+Project idea - Our idea of the project is to combine to old unique indie game snake game and scrabble. In this game player can choose to play singleplayer or 1v1 against your friend, obtain coins by playing and upgrade yourself for more features. All this will be coded on python add-ons pygame, which is an import that make it possible to make game menu.
+
+Imports - Import that we use consisted of pygame use for the game making, sys use to get no unnecessary errors, time frame per second and more, random use to give chances to letter that spawn and spawning positions.
+
+GAMEMODES
+Singleplayer - The player will play as a snake going around and getting letters to build up words, each letter have it's own respective score but becareful there are obstacles everywhere, one wrong move and it's gameover.
+1v1 - Both players will spawn as a snake on the left and right side of the map, like singleplayer, players have to go around the map to grab letter to build up words. Player that last the longest or have the most points at the end of the game wins.
+
+CONTROLS
+Moving snakes - WASD(player1), UPDOWNRIGHTLEFT(player2)
+Submit/delete words - Enter(player1), Right_shift(player2)
+
+STATS
+Length of the snake - If you just started the game your snake's length limit will be at 5, which can be increase later on in the upgrade.
+Health - Like the length limit if you just started your health will be at 1.
+Coin multipliers - Starting coin multipliers is 1x.
+Score multipliers - Starting score multipliers is 1x also.
+
+MECHANICS
+Scores - At the end of the game, you will receive coins per 10 scores you got, these coins can be use to upgrade snake.
+Fail conditions - Like every snake game, if player happens to hit the border, obstacles or themselves they will lose 1 hp, if ones hp were to fall below 1 then it's gameover
+Coins/upgrade - Coins can be gotten by playing the game, to use the coin the player need to go to the upgrade section, there are four upgrades in total. Length limit(Cap at 7), Health(Cap at 3), Coin multipliers(Cap at 5x), Score multipliers(Cap at 5x), of course the price will increase after each upgrades so spend carefully.
+Timers - Player will be given 120 seconds to play, this apply to both gamemodes.
+
+Game asset - To have game assets that fits the game needs we decide to make our own all the textures, music and words. Excepts sound effect which were gotten from internet.
+
+Game data - Most of the game data will be save via notepad, meaning that coins, words, stats will be kept in notepad, so that once the player restart the game their data will not be lost.
+
+Credits:
+Thank you to baraltech for the guide and code of the buttons that was used in multiple lines of code.
+
+Members:
+Max Lee 66070334
+Pakin Chaiaroon 66070337
